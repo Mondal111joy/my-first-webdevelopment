@@ -6,6 +6,12 @@ margin: 0%;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px ;
+}
+p{
+    color: blueviolet;
+}
 .name-highlight{
     color: orange;
 }
@@ -27,4 +33,49 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 200px;
+}
+.button{
+    text-decoration: none ;
+    background-image: linear-gradient( 45deg, rgb(22, 22, 190), rgb(78, 231, 58) );
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aquamarine;
+    font-weight: 700 ;
+
+
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.colour{
+    color:rgb(44, 8, 85);
+}
+.single-joy{
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 5px;
+    height: 80%;
+    background-color: aqua;
+}
+.experience{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  rgb(20, 8, 2),rgb(167, 42, 216));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  rgb(51, 14, 121),rgb(97, 228, 58));
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
